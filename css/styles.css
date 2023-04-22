@@ -1,0 +1,200 @@
+:root {
+    --primary-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --iris:#4D5AE5;
+    --cts-color:#404BBF;
+    --primary-white-color:#FFFFFF;
+    --accent-color:#E7E9FC;
+    --cloud-color:#F4F4FD;
+    --logo-text:#2196F3;
+}
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--iris);
+    font-family: Raleway,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-text {
+color: var(--title-text-color);
+}
+
+/* Site nav */
+
+.list {
+    list-style: none;
+}
+
+.list .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
+.list .link:hover,
+.list .link:focus {
+    color: var(--cts-color);
+}
+
+.adress-nav {
+    font-style: normal;
+}
+
+.adress-nav .address {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.adress-nav .address:hover,
+.adress-nav .address:focus {
+    color: var(--cts-color);
+}
+
+/* Buttons */
+
+.btn-filter-option {
+    background-color:var(--cloud-color);
+    color: var(--iris);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.btn-filter-option:hover,
+.btn-filter-option:focus {
+    background-color: var(--cts-color);
+    color: var(--primary-white-color);
+}
+.pointer {
+    cursor: pointer;
+}
+
+/* Hero */
+
+.hero{
+    background-color: var(--title-text-color);
+}
+
+.hero-title {
+    color:var(--primary-white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.hero-block-button {
+    background:var(--iris);
+    color: var(--primary-white-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-block-button:hover,
+.hero-block-button:focus {
+    background: var(--cts-color);  
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    visibility: hidden;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* Advantages */
+.list .title-advantages {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* Advantages,Portfolio,Team */
+
+.list .text-advantages,
+.list .text,
+.list .text-team {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Our team */
+
+.section-team {
+background-color: var(--cloud-color);
+}
+
+.list-team {
+    background-color: var(--primary-white-color);
+}
+.list-team .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+
+.portfolio-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer-text {
+    color: var(--cloud-color);    
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-section {
+    background-color: var(--title-text-color);
+}
+
+.logo-text-footer {
+ color: var(--cloud-color);
+}
