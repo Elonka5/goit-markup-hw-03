@@ -181,11 +181,8 @@ color: var(--title-text-color);
 .hero {
     background-color: var(--title-text-color);
     text-align: center;
-}
-
-.hero-container {
     padding-top: 188px;
-    padding-bottom: 188px;
+    padding-bottom: 188px;   
 }
 
 .hero-title {
@@ -218,6 +215,8 @@ color: var(--title-text-color);
     height: 56px;
     text-align: center;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button:hover,
@@ -267,7 +266,7 @@ padding-bottom: 120px;
     width: calc((100% - 72px) / 4);
 }
 
-.list-advantages .item:not(:last-child) {
+.list-advantages .item {
    margin-right: 24px; 
 }
 
@@ -304,7 +303,7 @@ padding-bottom: 120px;
     display: flex;
 }
 
-.examples .item:not(:last-child) {
+.examples .item {
     margin-right: 24px;
 }
 
@@ -323,7 +322,7 @@ background-color: var(--cloud-color);
     width: calc((100% - 72px) / 4);
 }
 
-.team-list .item:not(:last-child) {
+.team-list .item {
     margin-right: 24px;
 }
 
@@ -392,7 +391,7 @@ background-color: var(--cloud-color);
 }
 
 /* Footer */
-.logo .link {
+.container .link {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -411,4 +410,9 @@ background-color: var(--cloud-color);
 
 .logo-text-footer {
  color: var(--cloud-color);
+}
+
+.container .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
