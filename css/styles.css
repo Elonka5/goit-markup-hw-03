@@ -164,8 +164,8 @@ color: var(--title-text-color);
     display: block;
     border: 1px solid var(--accent-color);
     cursor: pointer;
-    padding-bottom: 12px;
-    padding-left: 24px;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .btn-filters:hover,
@@ -392,7 +392,10 @@ background-color: var(--cloud-color);
 }
 
 /* Footer */
-
+.logo .link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-text {
     color: var(--cloud-color);    
     font-size: 16px;
